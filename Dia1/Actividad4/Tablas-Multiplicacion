@@ -1,0 +1,7 @@
+#Tabla de multiplicación
+
+for i in range (1,11):
+    print("Tabla del "+str(i)+"\n")
+    for x in range (1,11):
+        print(str(i)+"X"+str(x)+"="+str(i*x))
+    print("\n")
