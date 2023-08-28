@@ -1,0 +1,43 @@
+Actividad 5: Preguntas
+¿Qué es una red?
+Son un conjunto de computadoras interconectadas que comparten información entre ellas. Para esto hacen uso de diversos protocolos.
+¿Qué es el modelo TCP/IP?
+Es un modelo que define la forma en la que dos computadoras se comunican. Abarca desde la parte física hasta el software. 
+¿Qué es una IP?
+Es una dirección lógica que permite a los dispositivos comunicarse entre ellos estando en redes distintas. De esta forma los paquetes saben a qué dispositivo deben llegar.
+¿Qué es el protocolo TCP?
+Es un protocolo para el envió de paquetes entre dos computadoras. Define todos los pasos que se deben realizar para establecer la comunicación, transmitir la comunicación y cerrar la comunicación. Este protocolo se enfoca en que la información llegue correctamente por lo que hay mensajes de conformación para corroborar el envió correcta de esta.
+¿Dentro del protocolo TCP, ¿Qué es el protocolo HTTP?
+Es un protocolo que sirve para transmitir contenido web. La información enviada no se encuentra cifrada.
+Puerto del protocolo HTTP
+80
+Puerto del protocolo HTTPS
+443
+Diferencia entre HTTP y HTTPS
+La diferencia es que en HTTPS se cifran los datos que se intercambian entre los dispositivos. HTTPS significa HTTP sobre TLS.
+¿Qué significa el modelo cliente- servidor?
+Es un tipo de arquitectura que se conforma por dos partes, el cliente y el servidor. El servidor es aquel dispositivo que recibe peticiones de los clientes y responde a cada una de estas. 
+¿Qué es una petición (request)?
+Es información que se manda por medio de HTTP o HTTPS, en donde el cliente especifica información de lo que desea consultar en el servidor. En la petición también se encuentra información del cliente como desde que navegador está consultando.
+¿Qué es una respuesta?
+Es la información que el servidor manda de regreso al cliente. En esta vienen los datos que el cliente quiere consultar. Además, incluye información del servidor.
+Secciones de una petición
+•	User-agent
+•	Cookie
+•	Host
+Secciones de una petición
+•	Length
+•	Date
+•	Host
+¿El código de respuesta 404 y 500 a que se refiere?
+El 404 se refiere a cuando la pagina no fue encontrada y el 500 para errores del servidor
+Lenguajes de programación del lado del servidor (Back End)
+•	PHP
+•	Python
+•	Java
+•	C#
+Lenguajes de programación del lado del cliente (Front End)
+•	Javascript
+•	Python
+¿Qué es Burp Suite?
+Es un proxy que permite interceptar las peticiones que se realizan a un servidor. Permite modificar dicha petición, así como realizar ataques con determinados payloads.
