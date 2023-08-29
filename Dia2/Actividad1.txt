@@ -1,0 +1,4 @@
+#!/bin/bash
+# Añade usuario ingresado
+sudo useradd -m $1 
+
