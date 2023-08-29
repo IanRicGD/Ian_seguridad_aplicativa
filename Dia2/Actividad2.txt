@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+# Agrega el usuario ingresado, la contraseña predeterminada es 12345 
+
+sudo useradd -m -p '$1$D6IwgklW$pVOCOuPSYbrJoM43Vgd291' -c "act2" -s  /bin/zsh $1 ;
+
+
