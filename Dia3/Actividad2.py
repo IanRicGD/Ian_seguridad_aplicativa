@@ -12,18 +12,30 @@ while(i==True):
     print(menu)
     #Opción seleccionada
     opcion = float(input("Ingresa una opción: "))
-    #Primer número
-    num1 = float(input ("Ingresa el primer número: "))
-    #Segundo numero
-    num2= float(input("Ingresa el segundo número: "))
     
     if (opcion==1):
+        #Primer número
+        num1 = float(input ("Ingresa el primer número: "))
+        #Segundo numero
+        num2= float(input("Ingresa el segundo número: "))
         print("El resultado de la suma es: " + str(num1+num2))
     elif (opcion==2):
+        #Primer número
+        num1 = float(input ("Ingresa el primer número: "))
+        #Segundo numero
+        num2= float(input("Ingresa el segundo número: "))
         print("El resultado de la resta es: " + str(num1-num2))
     elif (opcion==3):
+        #Primer número
+        num1 = float(input ("Ingresa el primer número: "))
+        #Segundo numero
+        num2= float(input("Ingresa el segundo número: "))
         print("El resultado de la multiplicación es: " + str(num1*num2))
     elif (opcion==4):
+        #Primer número
+        num1 = float(input ("Ingresa el primer número: "))
+        #Segundo numero
+        num2= float(input("Ingresa el segundo número: "))
         if(num2==0):
             print("No es posible realizar una división entre 0")
         else:
