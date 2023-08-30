@@ -50,8 +50,10 @@ def menor_calificacion(diccionario):
         if diccionario[i]==calificacion:
             tmp_dir.update({i:diccionario[i]})
     return tmp_dir           
-        
+
+print("El promedio es:")
 print(promedio(alumnos))
+print("")
 
 print("Los alumnos con mayor calificación son:")
 mejores=mayor_calificacion(alumnos)
