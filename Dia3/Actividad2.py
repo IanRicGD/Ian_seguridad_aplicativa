@@ -11,11 +11,7 @@ def resta(x,y):return x-y
 def mult(x,y):return x*y
 def div(x,y):return x/y
 
-def calculadora():
-        print(menu)
-        #Opción seleccionada
-        opcion = float(input("Ingresa una opción: "))
-        
+def calculadora(opcion):
         if (opcion==1):
             #Primer número
             num1 = float(input ("Ingresa el primer número: "))
@@ -56,11 +52,11 @@ def calculadora():
             print("Opción incorrecta")
             return False
             
-
-        
-
 i=True
 while(i==True):
-    i=calculadora()
+    print(menu)
+    #Opción seleccionada
+    opcion = float(input("Ingresa una opción: "))
+    i=calculadora(opcion)
     
 print("Hasta luego")
