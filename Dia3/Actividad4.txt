@@ -1,0 +1,64 @@
+#Del siguiente diccionario realizar las funciones que obtengan lo siguiente:
+#Obtener el promedio
+#Los aspirantes con mayor calificación y con menor calificación
+
+alumnos={
+    "Juan":8,
+    "Giselle":9,
+    "Damian1":5,
+    "Ricardo":6,
+    "Yaotzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yemahina":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+
+def promedio(diccionario):
+    tmp=0
+    for i in diccionario:
+        tmp+=diccionario[i]
+    prom=tmp/len(diccionario)
+    return prom
+
+def mayor_calificacion(diccionario):
+    calificacion=0
+    for i in diccionario:
+        if diccionario[i]>calificacion:
+            calificacion=diccionario[i]
+    tmp_dir={}
+    for i in diccionario:
+        if diccionario[i]==calificacion:
+            tmp_dir.update({i:diccionario[i]})
+    return tmp_dir
+ 
+def menor_calificacion(diccionario):
+    calificacion=10
+    for i in diccionario:
+        if diccionario[i]<calificacion:
+            calificacion=diccionario[i]
+    tmp_dir={}
+    for i in diccionario:
+        if diccionario[i]==calificacion:
+            tmp_dir.update({i:diccionario[i]})
+    return tmp_dir           
+        
+print(promedio(alumnos))
+
+print("Los alumnos con mayor calificación son:")
+mejores=mayor_calificacion(alumnos)
+for i in mejores:
+    print(i+" con una calificación de "+str(mejores[i]))
+
+print("\nLos alumnos con menor calificación son:")
+menores=menor_calificacion(alumnos)
+for i in menores:
+    print(i+" con una calificación de "+str(menores[i]))
